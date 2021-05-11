@@ -75,7 +75,7 @@ services:
       - workspace:${WORKSPACE_ROOT}
       - data:${CONFIG_ROOT}
   webapp:
-    image: airbyte/webapp:${VERSION}
+    image: airbyte/webapp:xebia-logo
     container_name: airbyte-webapp
     ports:
       - 8000:80
